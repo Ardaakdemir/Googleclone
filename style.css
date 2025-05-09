@@ -1,4 +1,37 @@
 h1
 {
-    font-size:110px;
+    font-size:81.25px;
+    margin-top:157px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+body
+{
+    background-color: rgb(153, 153, 153);
+}
+p
+{
+    color: white;
+}
+.ustkisim
+{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+.searchbar
+{
+    width: 50%;
+    height: 40px;
+    border: 1px;
+    border-radius: 20px;
+    border: 5px;
+}
+.bar
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
