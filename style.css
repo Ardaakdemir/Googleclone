@@ -1,19 +1,28 @@
+@font-face
+{
+    font-family: 'googlefontu';
+    src: url('Font/ProductSans-Regular.ttf') format('truetype');
+}
+
 h1
 {
-    font-size:81.25px;
-    margin-top:157px;
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    color: white;
+    font-size: 85px;
+    margin-top:210px;
+    margin-bottom: 40px;
+    font-family: 'googlefontu' ;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
+    gap: 2px;
 }
 body
 {
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(255, 255, 255);
 }
 p
 {
-    color: white;
+    color: rgb(70, 70, 70);
+    font-family: 'googlefontu';
 }
 .ustkisim
 {
@@ -21,17 +30,58 @@ p
     justify-content: end;
     gap: 15px;
 }
-.searchbar
-{
-    width: 50%;
-    height: 40px;
-    border: 1px;
-    border-radius: 20px;
-    border: 5px;
-}
-.bar
+.ortakisim
 {
     display: flex;
     justify-content: center;
+    margin-top: 25px;
+    gap: 35px;
+}
+.searchbar
+{   
+    width: 450px;
+    height: 55px;
+    border:1px;
+}
+.bar
+{
+    padding: 0 10px 0 10px;
+    margin: 0 auto;
+    width: fit-content;
+    box-shadow: 1px 1px 6px rgb(175, 175, 175);
+    display: flex;
+    justify-content: center;
     align-items:center;
+    background-color: white;
+    border-radius: 100px;
+    gap: 5px;
+}
+.arama
+{
+    padding-left: 10px;
+    height: 100%;
+}
+.kb
+{
+    padding-right: 10px;
+}
+.bar button
+{ 
+    background-color: white;
+    width: 45px;
+    border: 0;
+}
+.ortakisim button
+{
+    background-color: white;
+    border: 0;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 0 15px;
+
+}
+.ortakisim button:hover
+{
+box-shadow: 1px 1px 5px rgb(175, 175, 175);
+background-color: rgb(247, 247, 247);
 }
